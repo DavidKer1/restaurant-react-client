@@ -10,11 +10,11 @@ import Sidebar from './components/ui/Sidebar';
 function App() {
   return (
     <FirebaseContext.Provider value={{firebase}}>
-      <div className="md:flex min-h-screen">
+      <div className="lg:flex min-h-screen">
       <Sidebar 
 
       />
-      <div className="md:w-3/5 xl:w-4/5 p-6">
+      <div className="lg:w-2/3 xl:w-4/5 p-6">
         <Routes>
           <Route path="/" element={<Orders />}/>
           <Route path="/menu" element={<Menu />}/>

@@ -61,7 +61,6 @@ export default function NewServing() {
 	};
 	const handleUploadError = (error) => {
 		setSubiendo(false);
-		console.log(error);
 	};
 	const handleUploadSuccess = async (nombre) => {
 		setProgreso(100);
@@ -75,12 +74,10 @@ export default function NewServing() {
 				.getDownloadURL();
 			setUrlImagen(url);
 		} catch (error) {
-			console.log(error);
 		}
 	};
 	const handleProgress = (progreso) => {
 		setProgreso(progreso);
-		console.log(progreso);
 	};
 
 	let inputCssClass =
