@@ -1,6 +1,8 @@
 # Restaurant Menu - React Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Connected to Firebase
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Connected to Firebase.
+
+This page is to manage orders and create, delete, update the menu.
 
 ## Demo
 - [Demo Site](https://restaurant-client-vs.netlify.app/)
